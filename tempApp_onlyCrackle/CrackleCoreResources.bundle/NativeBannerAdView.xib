@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4864" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nb0-R0-00t" userLabel="NativeBannerAdView" customClass="CrackleNativeAdView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <!-- Icon ImageView: 42x42, 4pt from left/top/bottom -->
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nb1-ic-on0">
+                    <rect key="frame" x="4" y="4" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="nb-icon-w"/>
+                        <constraint firstAttribute="height" constant="42" id="nb-icon-h"/>
+                    </constraints>
+                </imageView>
+
+                <!-- Top row: Headline label -->
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb2-hl-in0">
+                    <rect key="frame" x="50" y="2" width="220" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="nb-hl-h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="bold" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+
+                <!-- "Ad" badge: outer green border view + inner white label -->
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-ad-box">
+                    <rect key="frame" x="274" y="5" width="20" height="16"/>
+                    <color key="backgroundColor" red="0.22745098039215686" green="0.40392156862745099" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="nb-ad-w"/>
+                        <constraint firstAttribute="height" constant="16" id="nb-ad-h"/>
+                    </constraints>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Ad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-ad-bdg">
+                            <rect key="frame" x="1.5" y="1.5" width="17" height="13"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" weight="bold" pointSize="9"/>
+                            <color key="textColor" red="0.22745098039215686" green="0.40392156862745099" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nb3-ad-bdg" firstAttribute="leading" secondItem="nb3-ad-box" secondAttribute="leading" constant="1.5" id="nb-ad-in-l"/>
+                        <constraint firstItem="nb3-ad-bdg" firstAttribute="top" secondItem="nb3-ad-box" secondAttribute="top" constant="1.5" id="nb-ad-in-t"/>
+                        <constraint firstAttribute="trailing" secondItem="nb3-ad-bdg" secondAttribute="trailing" constant="1.5" id="nb-ad-in-r"/>
+                        <constraint firstAttribute="bottom" secondItem="nb3-ad-bdg" secondAttribute="bottom" constant="1.5" id="nb-ad-in-b"/>
+                    </constraints>
+                </view>
+
+                <!-- Bottom row: Advertiser label -->
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb4-ad-vrt">
+                    <rect key="frame" x="50" y="26" width="140" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="nb-adv-h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+
+                <!-- CTA button: 23pt height, right side -->
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" horizontalHuggingPriority="252" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-ct-btn">
+                    <rect key="frame" x="194" y="26" width="122" height="23"/>
+                    <color key="backgroundColor" red="1" green="0.75686274509803919" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="nb-cta-h"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="nb-cta-minw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+
+                <!-- Hidden: mediaView (CrackleMediaView) -->
+                <view hidden="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="nb6-md-viw" customClass="CrackleMediaView">
+                    <rect key="frame" x="0" y="0" width="0" height="0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0" id="nb-md-w"/>
+                        <constraint firstAttribute="height" constant="0" id="nb-md-h"/>
+                    </constraints>
+                </view>
+
+                <!-- Hidden: bodyView -->
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="" translatesAutoresizingMaskIntoConstraints="NO" id="nb7-bd-lbl">
+                    <rect key="frame" x="0" y="0" width="0" height="0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0" id="nb-bd-w"/>
+                        <constraint firstAttribute="height" constant="0" id="nb-bd-h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+
+                <!-- Hidden: starRatingView -->
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="nb8-sr-img">
+                    <rect key="frame" x="0" y="0" width="0" height="0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0" id="nb-sr-w"/>
+                        <constraint firstAttribute="height" constant="0" id="nb-sr-h"/>
+                    </constraints>
+                </imageView>
+
+                <!-- Hidden: storeView -->
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="" translatesAutoresizingMaskIntoConstraints="NO" id="nb9-st-lbl">
+                    <rect key="frame" x="0" y="0" width="0" height="0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0" id="nb-st-w"/>
+                        <constraint firstAttribute="height" constant="0" id="nb-st-h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+
+                <!-- Hidden: priceView -->
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="" translatesAutoresizingMaskIntoConstraints="NO" id="nbA-pr-lbl">
+                    <rect key="frame" x="0" y="0" width="0" height="0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0" id="nb-pr-w"/>
+                        <constraint firstAttribute="height" constant="0" id="nb-pr-h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <!-- Icon: leading=4, centerY -->
+                <constraint firstItem="nb1-ic-on0" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" constant="4" id="nb-c-icon-l"/>
+                <constraint firstItem="nb1-ic-on0" firstAttribute="centerY" secondItem="nb0-R0-00t" secondAttribute="centerY" id="nb-c-icon-cy"/>
+
+                <!-- Headline: leading to icon trailing+4, top=2, trailing to ad badge leading-4 -->
+                <constraint firstItem="nb2-hl-in0" firstAttribute="leading" secondItem="nb1-ic-on0" secondAttribute="trailing" constant="4" id="nb-c-hl-l"/>
+                <constraint firstItem="nb2-hl-in0" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" constant="2" id="nb-c-hl-t"/>
+                <constraint firstItem="nb3-ad-box" firstAttribute="leading" secondItem="nb2-hl-in0" secondAttribute="trailing" constant="4" id="nb-c-hl-tr"/>
+
+                <!-- Ad badge: trailing=22, top=3 to align with AdChoices icon -->
+                <constraint firstAttribute="trailing" secondItem="nb3-ad-box" secondAttribute="trailing" constant="22" id="nb-c-ad-tr"/>
+                <constraint firstItem="nb3-ad-box" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" constant="3" id="nb-c-ad-cy"/>
+
+                <!-- Advertiser: leading same as headline, top below headline+2, bottom to superview-2 -->
+                <constraint firstItem="nb4-ad-vrt" firstAttribute="leading" secondItem="nb2-hl-in0" secondAttribute="leading" id="nb-c-adv-l"/>
+                <constraint firstItem="nb4-ad-vrt" firstAttribute="top" secondItem="nb2-hl-in0" secondAttribute="bottom" constant="2" id="nb-c-adv-t"/>
+
+                <!-- CTA: trailing=4, leading >= advertiser trailing+4, centerY to advertiser -->
+                <constraint firstAttribute="trailing" secondItem="nb5-ct-btn" secondAttribute="trailing" constant="4" id="nb-c-cta-tr"/>
+                <constraint firstItem="nb5-ct-btn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nb4-ad-vrt" secondAttribute="trailing" constant="4" id="nb-c-cta-l"/>
+                <constraint firstItem="nb5-ct-btn" firstAttribute="centerY" secondItem="nb4-ad-vrt" secondAttribute="centerY" id="nb-c-cta-cy"/>
+
+                <!-- Hidden elements pinned to top-left -->
+                <constraint firstItem="nb6-md-viw" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" id="nb-c-md-l"/>
+                <constraint firstItem="nb6-md-viw" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" id="nb-c-md-t"/>
+                <constraint firstItem="nb7-bd-lbl" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" id="nb-c-bd-l"/>
+                <constraint firstItem="nb7-bd-lbl" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" id="nb-c-bd-t"/>
+                <constraint firstItem="nb8-sr-img" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" id="nb-c-sr-l"/>
+                <constraint firstItem="nb8-sr-img" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" id="nb-c-sr-t"/>
+                <constraint firstItem="nb9-st-lbl" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" id="nb-c-st-l"/>
+                <constraint firstItem="nb9-st-lbl" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" id="nb-c-st-t"/>
+                <constraint firstItem="nbA-pr-lbl" firstAttribute="leading" secondItem="nb0-R0-00t" secondAttribute="leading" id="nb-c-pr-l"/>
+                <constraint firstItem="nbA-pr-lbl" firstAttribute="top" secondItem="nb0-R0-00t" secondAttribute="top" id="nb-c-pr-t"/>
+            </constraints>
+            <connections>
+                <outlet property="advertiserView" destination="nb4-ad-vrt" id="nb-o-adv"/>
+                <outlet property="bodyView" destination="nb7-bd-lbl" id="nb-o-bdy"/>
+                <outlet property="callToActionView" destination="nb5-ct-btn" id="nb-o-cta"/>
+                <outlet property="headlineView" destination="nb2-hl-in0" id="nb-o-hdl"/>
+                <outlet property="iconView" destination="nb1-ic-on0" id="nb-o-ico"/>
+                <outlet property="mediaView" destination="nb6-md-viw" id="nb-o-mda"/>
+                <outlet property="priceView" destination="nbA-pr-lbl" id="nb-o-prc"/>
+                <outlet property="starRatingView" destination="nb8-sr-img" id="nb-o-str"/>
+                <outlet property="storeView" destination="nb9-st-lbl" id="nb-o-sto"/>
+            </connections>
+            <point key="canvasLocation" x="0" y="0"/>
+        </view>
+    </objects>
+</document>

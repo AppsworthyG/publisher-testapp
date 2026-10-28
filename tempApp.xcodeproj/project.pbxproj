@@ -1,0 +1,1720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4206CD55AE718D3F6A2998AA /* Pods_tempApp_onlyCrackle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A027DED6F6F053059EDEA45B /* Pods_tempApp_onlyCrackle.framework */; };
+		6E02B2A52E0D4AC200514DB6 /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02B2A42E0D4AC200514DB6 /* FullScreenVC.swift */; };
+		6E02B2A82E0D4AC800514DB6 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02B2A72E0D4AC800514DB6 /* CWButton.swift */; };
+		6E02B2A92E0D4AC800514DB6 /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02B2A62E0D4AC800514DB6 /* BannerVC.swift */; };
+		6E03B1CF2F448A8B003EAF3A /* NativeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03B1CE2F448A88003EAF3A /* NativeVC.swift */; };
+		6E0D66D32E013A3D0060169A /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D66D12E013A3D0060169A /* BannerVC.swift */; };
+		6E0D66D42E013A3D0060169A /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D66D22E013A3D0060169A /* CWButton.swift */; };
+		6E0D66D52E013A3D0060169A /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D66D02E013A3D0060169A /* FullScreenVC.swift */; };
+		6E1087733008EA8A00D4805C /* CrackleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E91D2472DE449C20092722F /* CrackleSDK.framework */; };
+		6E1087773008FA6A00D4805C /* NativeBannerAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1087763008FA6A00D4805C /* NativeBannerAdView.xib */; };
+		6E26536B2FCED7CA00C47FC1 /* CrackleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26536A2FCED7CA00C47FC1 /* CrackleSDK.framework */; };
+		6E26536F2FCED7CF00C47FC1 /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26536E2FCED7CF00C47FC1 /* s3.framework */; };
+		6E26537C2FCEF23B00C47FC1 /* CrackleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E91D2472DE449C20092722F /* CrackleSDK.framework */; };
+		6E26537E2FCEF97600C47FC1 /* CrackleApplovinMaxAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2653712FCED87100C47FC1 /* CrackleApplovinMaxAdapter.framework */; };
+		6E2821012FBC35FE002C5B03 /* CrackleCoreResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E2821002FBC35FE002C5B03 /* CrackleCoreResources.bundle */; };
+		6E328DAF2FD1728C0094F03A /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E82A1022E2779630094378F /* s3.framework */; };
+		6E3646622E2A591D00F58DE0 /* CustomNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3646612E2A591300F58DE0 /* CustomNativeAdView.xib */; };
+		6E3698E72DE6E234001CB3E0 /* CustomNativeAdView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3698E62DE6E234001CB3E0 /* CustomNativeAdView1.xib */; };
+		6E4D07E12DDEF4D400D6A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D07D82DDEF4D400D6A439 /* Assets.xcassets */; };
+		6E4D07E32DDEF4D400D6A439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D07DB2DDEF4D400D6A439 /* LaunchScreen.storyboard */; };
+		6E4D07E42DDEF4D400D6A439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D07DD2DDEF4D400D6A439 /* Main.storyboard */; };
+		6E4D07E52DDEF4D400D6A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07D72DDEF4D400D6A439 /* AppDelegate.swift */; };
+		6E4D07E62DDEF4D400D6A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07DE2DDEF4D400D6A439 /* SceneDelegate.swift */; };
+		6E4D07E72DDEF4D400D6A439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07DF2DDEF4D400D6A439 /* ViewController.swift */; };
+		6E4D07F22DDEF4D600D6A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D07E92DDEF4D600D6A439 /* Assets.xcassets */; };
+		6E4D07F62DDEF4D600D6A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07E82DDEF4D600D6A439 /* AppDelegate.swift */; };
+		6E4D07F72DDEF4D600D6A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07EF2DDEF4D600D6A439 /* SceneDelegate.swift */; };
+		6E4D08032DDEF4D800D6A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D07F92DDEF4D800D6A439 /* AppDelegate.swift */; };
+		6E4D08042DDEF4D800D6A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D08002DDEF4D800D6A439 /* SceneDelegate.swift */; };
+		6E4D08062DDEF4D800D6A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D07FA2DDEF4D800D6A439 /* Assets.xcassets */; };
+		6E4D08142DDEF4DA00D6A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D080B2DDEF4DA00D6A439 /* Assets.xcassets */; };
+		6E4D08182DDEF4DA00D6A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D080A2DDEF4DA00D6A439 /* AppDelegate.swift */; };
+		6E4D08192DDEF4DA00D6A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D08112DDEF4DA00D6A439 /* SceneDelegate.swift */; };
+		6E4D08252DDEF4DD00D6A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D081B2DDEF4DD00D6A439 /* AppDelegate.swift */; };
+		6E4D08262DDEF4DD00D6A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D08222DDEF4DD00D6A439 /* SceneDelegate.swift */; };
+		6E4D08282DDEF4DD00D6A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D081C2DDEF4DD00D6A439 /* Assets.xcassets */; };
+		6E4D082D2DDEF5A800D6A439 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D082C2DDEF5A800D6A439 /* CardSelectionVC.swift */; };
+		6E4D082F2DDEF5B900D6A439 /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D082E2DDEF5B900D6A439 /* BannerVC.swift */; };
+		6E4D08312DDEF77500D6A439 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D08302DDEF77500D6A439 /* CWButton.swift */; };
+		6E6584FE2DF89F1D00BC2B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6584F52DF89F1D00BC2B6B /* Assets.xcassets */; };
+		6E6585022DF89F1D00BC2B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6584F42DF89F1D00BC2B6B /* AppDelegate.swift */; };
+		6E6585032DF89F1D00BC2B6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6584FB2DF89F1D00BC2B6B /* SceneDelegate.swift */; };
+		6E6585082DF8A65F00BC2B6B /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6585062DF8A65F00BC2B6B /* BannerVC.swift */; };
+		6E6585092DF8A65F00BC2B6B /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6585072DF8A65F00BC2B6B /* CWButton.swift */; };
+		6E65850A2DF8A65F00BC2B6B /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6585052DF8A65F00BC2B6B /* CardSelectionVC.swift */; };
+		6EA02C422DE87736004674CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA02C392DE87736004674CB /* Assets.xcassets */; };
+		6EA02C462DE87736004674CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA02C382DE87736004674CB /* AppDelegate.swift */; };
+		6EA02C472DE87736004674CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA02C3F2DE87736004674CB /* SceneDelegate.swift */; };
+		6EA02C4C2DE8778B004674CB /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA02C4A2DE8778B004674CB /* FullScreenVC.swift */; };
+		6EA02C4D2DE8778B004674CB /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA02C4B2DE8778B004674CB /* CWButton.swift */; };
+		6EA02C4E2DE8778B004674CB /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA02C492DE8778B004674CB /* BannerVC.swift */; };
+		6EDD25742FDFFE5C0033E503 /* CrackleIronSourceAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDD25732FDFFE5C0033E503 /* CrackleIronSourceAdapter.framework */; };
+		6EDD25772FE00FFB0033E503 /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E82A1022E2779630094378F /* s3.framework */; };
+		6EDD257B2FE132870033E503 /* CrackleGoogleAdManagerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDD257A2FE132870033E503 /* CrackleGoogleAdManagerAdapter.framework */; };
+		6EDD257E2FE134370033E503 /* CrackleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E91D2472DE449C20092722F /* CrackleSDK.framework */; };
+		6EDD25812FE1343C0033E503 /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E82A1022E2779630094378F /* s3.framework */; };
+		6EFF02F02DF1BE670080083D /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF02EE2DF1BE670080083D /* BannerVC.swift */; };
+		6EFF02F12DF1BE670080083D /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF02ED2DF1BE670080083D /* CardSelectionVC.swift */; };
+		6EFF02F22DF1BE670080083D /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF02EF2DF1BE670080083D /* CWButton.swift */; };
+		96D48C4C6B3F140BFF318762 /* Pods_tempApp_onlyIronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B7EB047C5B52378A2B573 /* Pods_tempApp_onlyIronSource.framework */; };
+		A0BCB3481E0445D79B17F147 /* AdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CDC65E5CE4D519D25A595 /* AdVC.swift */; };
+		FAB0B46F6E6D445F92F0F493 /* UnifiedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E02438125D414D8EFBB22A /* UnifiedVC.swift */; };
+		AE6AFD017CCF95839FE6A36E /* Pods_tempApp_onlyApplovinMax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19DD9D788EB5A7C9229E98A /* Pods_tempApp_onlyApplovinMax.framework */; };
+		D4634A32C3F73BE0A513AD8F /* Pods_tempApp_onlyGAM12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D8B08F0792CBC79B696F61 /* Pods_tempApp_onlyGAM12.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056CDDA8A8737DDF485A8BEE /* Pods-tempApp_onlyIronSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyIronSource.release.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyIronSource/Pods-tempApp_onlyIronSource.release.xcconfig"; sourceTree = "<group>"; };
+		2C0D65216A5015504CD1C67D /* Pods-tempApp_onlyApplovinMax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyApplovinMax.release.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax.release.xcconfig"; sourceTree = "<group>"; };
+		37CA30C5433A42F463A4DE92 /* Pods-tempApp_onlyCrackle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyCrackle.debug.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyCrackle/Pods-tempApp_onlyCrackle.debug.xcconfig"; sourceTree = "<group>"; };
+		55F23002CFDA039F31370DDA /* Pods-tempApp_onlyIronSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyIronSource.debug.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyIronSource/Pods-tempApp_onlyIronSource.debug.xcconfig"; sourceTree = "<group>"; };
+		6E02B2A42E0D4AC200514DB6 /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
+		6E02B2A62E0D4AC800514DB6 /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6E02B2A72E0D4AC800514DB6 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		6E03B1CE2F448A88003EAF3A /* NativeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeVC.swift; sourceTree = "<group>"; };
+		6E0BAFB32F43006A00D1D243 /* s3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0D66D02E013A3D0060169A /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
+		6E0D66D12E013A3D0060169A /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6E0D66D22E013A3D0060169A /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		6E1087763008FA6A00D4805C /* NativeBannerAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeBannerAdView.xib; sourceTree = "<group>"; };
+		6E26536A2FCED7CA00C47FC1 /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E26536E2FCED7CF00C47FC1 /* s3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2653712FCED87100C47FC1 /* CrackleApplovinMaxAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleApplovinMaxAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2821002FBC35FE002C5B03 /* CrackleCoreResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CrackleCoreResources.bundle; sourceTree = "<group>"; };
+		6E328DAB2FD16F800094F03A /* s5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E33201B2FCF0717007FB70A /* Google_Mobile_Ads_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Google_Mobile_Ads_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E36465A2E2A55E800F58DE0 /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E36465E2E2A55EC00F58DE0 /* s3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3646612E2A591300F58DE0 /* CustomNativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNativeAdView.xib; sourceTree = "<group>"; };
+		6E3698E52DE6E234001CB3E0 /* CustomNativeAdView1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomNativeAdView1.xib; path = Base.lproj/CustomNativeAdView1.xib; sourceTree = "<group>"; };
+		6E4D075B2DDEF37D00D6A439 /* tempApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D07772DDEF44C00D6A439 /* tempApp_onlyGAM12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyGAM12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D07902DDEF45B00D6A439 /* tempApp_onlyGAM11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyGAM11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D07A92DDEF46E00D6A439 /* tempApp_onlyApplovinMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyApplovinMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D07C22DDEF4A800D6A439 /* tempApp_onlyIronSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyIronSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D07D72DDEF4D400D6A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4D07D82DDEF4D400D6A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4D07D92DDEF4D400D6A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D07DA2DDEF4D400D6A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E4D07DC2DDEF4D400D6A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4D07DE2DDEF4D400D6A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4D07DF2DDEF4D400D6A439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E4D07E82DDEF4D600D6A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4D07E92DDEF4D600D6A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4D07EA2DDEF4D600D6A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D07EF2DDEF4D600D6A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4D07F92DDEF4D800D6A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4D07FA2DDEF4D800D6A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4D07FB2DDEF4D800D6A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D08002DDEF4D800D6A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4D080A2DDEF4DA00D6A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4D080B2DDEF4DA00D6A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4D080C2DDEF4DA00D6A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D08112DDEF4DA00D6A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4D081B2DDEF4DD00D6A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4D081C2DDEF4DD00D6A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4D081D2DDEF4DD00D6A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D08222DDEF4DD00D6A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4D082C2DDEF5A800D6A439 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		6E4D082E2DDEF5B900D6A439 /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6E4D08302DDEF77500D6A439 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		6E6584DF2DF89F1700BC2B6B /* tempApp_onlyCrackleRtb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyCrackleRtb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6584F42DF89F1D00BC2B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E6584F52DF89F1D00BC2B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6584F62DF89F1D00BC2B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6584FB2DF89F1D00BC2B6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E6585052DF8A65F00BC2B6B /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		6E6585062DF8A65F00BC2B6B /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6E6585072DF8A65F00BC2B6B /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		6E7544242F3F261B00D12218 /* s10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E82A0FE2E2779590094378F /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E82A1022E2779630094378F /* s3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8E89F92E2A1FBA00B7BE7B /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8E89FD2E2A1FF300B7BE7B /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8E8A012E2A211700B7BE7B /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E91D2472DE449C20092722F /* CrackleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA02C232DE8772B004674CB /* tempApp_onlyCrackle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempApp_onlyCrackle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA02C382DE87736004674CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EA02C392DE87736004674CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA02C3A2DE87736004674CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA02C3F2DE87736004674CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EA02C492DE8778B004674CB /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6EA02C4A2DE8778B004674CB /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
+		6EA02C4B2DE8778B004674CB /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		6EA153162FC99FB300A5298A /* s17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = s17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDD25712FDE95C50033E503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EDD25732FDFFE5C0033E503 /* CrackleIronSourceAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleIronSourceAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDD257A2FE132870033E503 /* CrackleGoogleAdManagerAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrackleGoogleAdManagerAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFF02ED2DF1BE670080083D /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		6EFF02EE2DF1BE670080083D /* BannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
+		6EFF02EF2DF1BE670080083D /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		790CDC65E5CE4D519D25A595 /* AdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdVC.swift; sourceTree = "<group>"; };
+		B0E02438125D414D8EFBB22A /* UnifiedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedVC.swift; sourceTree = "<group>"; };
+		A027DED6F6F053059EDEA45B /* Pods_tempApp_onlyCrackle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempApp_onlyCrackle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61B7EB047C5B52378A2B573 /* Pods_tempApp_onlyIronSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempApp_onlyIronSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DD9D788EB5A7C9229E98A /* Pods_tempApp_onlyApplovinMax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempApp_onlyApplovinMax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D8B08F0792CBC79B696F61 /* Pods_tempApp_onlyGAM12.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempApp_onlyGAM12.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC9B512C0357E11B18045E9 /* Pods-tempApp_onlyGAM12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyGAM12.debug.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyGAM12/Pods-tempApp_onlyGAM12.debug.xcconfig"; sourceTree = "<group>"; };
+		E180290CB70709D740D03B61 /* Pods-tempApp_onlyApplovinMax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyApplovinMax.debug.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax.debug.xcconfig"; sourceTree = "<group>"; };
+		F925BB8AF6DE971A222FF010 /* Pods-tempApp_onlyGAM12.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyGAM12.release.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyGAM12/Pods-tempApp_onlyGAM12.release.xcconfig"; sourceTree = "<group>"; };
+		FA3F13AD722E29C4648FAE99 /* Pods-tempApp_onlyCrackle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempApp_onlyCrackle.release.xcconfig"; path = "../../SDKs/cracklesdk/Pods/Target Support Files/Pods-tempApp_onlyCrackle/Pods-tempApp_onlyCrackle.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E4D07582DDEF37D00D6A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07742DDEF44C00D6A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDD257B2FE132870033E503 /* CrackleGoogleAdManagerAdapter.framework in Frameworks */,
+				D4634A32C3F73BE0A513AD8F /* Pods_tempApp_onlyGAM12.framework in Frameworks */,
+				6EDD25812FE1343C0033E503 /* s3.framework in Frameworks */,
+				6EDD257E2FE134370033E503 /* CrackleSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D078D2DDEF45B00D6A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07A62DDEF46E00D6A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E26536F2FCED7CF00C47FC1 /* s3.framework in Frameworks */,
+				6E26536B2FCED7CA00C47FC1 /* CrackleSDK.framework in Frameworks */,
+				6E26537E2FCEF97600C47FC1 /* CrackleApplovinMaxAdapter.framework in Frameworks */,
+				6E26537C2FCEF23B00C47FC1 /* CrackleSDK.framework in Frameworks */,
+				AE6AFD017CCF95839FE6A36E /* Pods_tempApp_onlyApplovinMax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07BF2DDEF4A800D6A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDD25772FE00FFB0033E503 /* s3.framework in Frameworks */,
+				96D48C4C6B3F140BFF318762 /* Pods_tempApp_onlyIronSource.framework in Frameworks */,
+				6EDD25742FDFFE5C0033E503 /* CrackleIronSourceAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6584DC2DF89F1700BC2B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA02C202DE8772B004674CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E328DAF2FD1728C0094F03A /* s3.framework in Frameworks */,
+				4206CD55AE718D3F6A2998AA /* Pods_tempApp_onlyCrackle.framework in Frameworks */,
+				6E1087733008EA8A00D4805C /* CrackleSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7E7EB5C861856CCDCBEBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDD257A2FE132870033E503 /* CrackleGoogleAdManagerAdapter.framework */,
+				6EDD25732FDFFE5C0033E503 /* CrackleIronSourceAdapter.framework */,
+				6EDD25712FDE95C50033E503 /* Foundation.framework */,
+				6E328DAB2FD16F800094F03A /* s5.framework */,
+				6E33201B2FCF0717007FB70A /* Google_Mobile_Ads_SDK.framework */,
+				6E2653712FCED87100C47FC1 /* CrackleApplovinMaxAdapter.framework */,
+				6E26536E2FCED7CF00C47FC1 /* s3.framework */,
+				6E26536A2FCED7CA00C47FC1 /* CrackleSDK.framework */,
+				6EA153162FC99FB300A5298A /* s17.framework */,
+				6E0BAFB32F43006A00D1D243 /* s3.framework */,
+				6E7544242F3F261B00D12218 /* s10.framework */,
+				6E36465E2E2A55EC00F58DE0 /* s3.framework */,
+				6E36465A2E2A55E800F58DE0 /* CrackleSDK.framework */,
+				6E8E8A012E2A211700B7BE7B /* CrackleSDK.framework */,
+				6E8E89FD2E2A1FF300B7BE7B /* CrackleSDK.framework */,
+				6E8E89F92E2A1FBA00B7BE7B /* CrackleSDK.framework */,
+				6E82A1022E2779630094378F /* s3.framework */,
+				6E82A0FE2E2779590094378F /* CrackleSDK.framework */,
+				6E91D2472DE449C20092722F /* CrackleSDK.framework */,
+				A027DED6F6F053059EDEA45B /* Pods_tempApp_onlyCrackle.framework */,
+				B19DD9D788EB5A7C9229E98A /* Pods_tempApp_onlyApplovinMax.framework */,
+				A61B7EB047C5B52378A2B573 /* Pods_tempApp_onlyIronSource.framework */,
+				B1D8B08F0792CBC79B696F61 /* Pods_tempApp_onlyGAM12.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4105E9FF426078BC54C0C242 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37CA30C5433A42F463A4DE92 /* Pods-tempApp_onlyCrackle.debug.xcconfig */,
+				FA3F13AD722E29C4648FAE99 /* Pods-tempApp_onlyCrackle.release.xcconfig */,
+				E180290CB70709D740D03B61 /* Pods-tempApp_onlyApplovinMax.debug.xcconfig */,
+				2C0D65216A5015504CD1C67D /* Pods-tempApp_onlyApplovinMax.release.xcconfig */,
+				55F23002CFDA039F31370DDA /* Pods-tempApp_onlyIronSource.debug.xcconfig */,
+				056CDDA8A8737DDF485A8BEE /* Pods-tempApp_onlyIronSource.release.xcconfig */,
+				DDC9B512C0357E11B18045E9 /* Pods-tempApp_onlyGAM12.debug.xcconfig */,
+				F925BB8AF6DE971A222FF010 /* Pods-tempApp_onlyGAM12.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E4D07522DDEF37D00D6A439 = {
+			isa = PBXGroup;
+			children = (
+				6E4D07E02DDEF4D400D6A439 /* tempApp */,
+				6E4D07F12DDEF4D600D6A439 /* tempApp_onlyGAM12 */,
+				6E4D08022DDEF4D800D6A439 /* tempApp_onlyGAM11 */,
+				6E4D08132DDEF4DA00D6A439 /* tempApp_onlyApplovinMax */,
+				6E4D08242DDEF4DD00D6A439 /* tempApp_onlyIronSource */,
+				6EA02C412DE87736004674CB /* tempApp_onlyCrackle */,
+				6E6584FD2DF89F1D00BC2B6B /* tempApp_onlyCrackleRtb */,
+				6E4D075C2DDEF37D00D6A439 /* Products */,
+				4105E9FF426078BC54C0C242 /* Pods */,
+				0C7E7EB5C861856CCDCBEBB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4D075C2DDEF37D00D6A439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D075B2DDEF37D00D6A439 /* tempApp.app */,
+				6E4D07772DDEF44C00D6A439 /* tempApp_onlyGAM12.app */,
+				6E4D07902DDEF45B00D6A439 /* tempApp_onlyGAM11.app */,
+				6E4D07A92DDEF46E00D6A439 /* tempApp_onlyApplovinMax.app */,
+				6E4D07C22DDEF4A800D6A439 /* tempApp_onlyIronSource.app */,
+				6EA02C232DE8772B004674CB /* tempApp_onlyCrackle.app */,
+				6E6584DF2DF89F1700BC2B6B /* tempApp_onlyCrackleRtb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4D07E02DDEF4D400D6A439 /* tempApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D07D72DDEF4D400D6A439 /* AppDelegate.swift */,
+				6E4D07D82DDEF4D400D6A439 /* Assets.xcassets */,
+				6E4D07D92DDEF4D400D6A439 /* Info.plist */,
+				6E4D07DB2DDEF4D400D6A439 /* LaunchScreen.storyboard */,
+				6E4D07DD2DDEF4D400D6A439 /* Main.storyboard */,
+				6E4D07DE2DDEF4D400D6A439 /* SceneDelegate.swift */,
+				6E4D07DF2DDEF4D400D6A439 /* ViewController.swift */,
+			);
+			path = tempApp;
+			sourceTree = "<group>";
+		};
+		6E4D07F12DDEF4D600D6A439 /* tempApp_onlyGAM12 */ = {
+			isa = PBXGroup;
+			children = (
+				6E3698E62DE6E234001CB3E0 /* CustomNativeAdView1.xib */,
+				6E4D082C2DDEF5A800D6A439 /* CardSelectionVC.swift */,
+				6E4D082E2DDEF5B900D6A439 /* BannerVC.swift */,
+				6E4D08302DDEF77500D6A439 /* CWButton.swift */,
+				6E4D07E82DDEF4D600D6A439 /* AppDelegate.swift */,
+				6E4D07EF2DDEF4D600D6A439 /* SceneDelegate.swift */,
+				6E4D07E92DDEF4D600D6A439 /* Assets.xcassets */,
+				6E4D07EA2DDEF4D600D6A439 /* Info.plist */,
+			);
+			path = tempApp_onlyGAM12;
+			sourceTree = "<group>";
+		};
+		6E4D08022DDEF4D800D6A439 /* tempApp_onlyGAM11 */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF02ED2DF1BE670080083D /* CardSelectionVC.swift */,
+				6EFF02EE2DF1BE670080083D /* BannerVC.swift */,
+				6EFF02EF2DF1BE670080083D /* CWButton.swift */,
+				6E4D07F92DDEF4D800D6A439 /* AppDelegate.swift */,
+				6E4D08002DDEF4D800D6A439 /* SceneDelegate.swift */,
+				6E4D07FB2DDEF4D800D6A439 /* Info.plist */,
+				6E4D07FA2DDEF4D800D6A439 /* Assets.xcassets */,
+			);
+			path = tempApp_onlyGAM11;
+			sourceTree = "<group>";
+		};
+		6E4D08132DDEF4DA00D6A439 /* tempApp_onlyApplovinMax */ = {
+			isa = PBXGroup;
+			children = (
+				6E02B2A42E0D4AC200514DB6 /* FullScreenVC.swift */,
+				6E02B2A62E0D4AC800514DB6 /* BannerVC.swift */,
+				6E02B2A72E0D4AC800514DB6 /* CWButton.swift */,
+				6E4D080A2DDEF4DA00D6A439 /* AppDelegate.swift */,
+				6E4D08112DDEF4DA00D6A439 /* SceneDelegate.swift */,
+				6E4D080B2DDEF4DA00D6A439 /* Assets.xcassets */,
+				6E4D080C2DDEF4DA00D6A439 /* Info.plist */,
+			);
+			path = tempApp_onlyApplovinMax;
+			sourceTree = "<group>";
+		};
+		6E4D08242DDEF4DD00D6A439 /* tempApp_onlyIronSource */ = {
+			isa = PBXGroup;
+			children = (
+				6E0D66D02E013A3D0060169A /* FullScreenVC.swift */,
+				6E0D66D12E013A3D0060169A /* BannerVC.swift */,
+				6E0D66D22E013A3D0060169A /* CWButton.swift */,
+				6E4D081B2DDEF4DD00D6A439 /* AppDelegate.swift */,
+				6E4D08222DDEF4DD00D6A439 /* SceneDelegate.swift */,
+				6E4D081C2DDEF4DD00D6A439 /* Assets.xcassets */,
+				6E4D081D2DDEF4DD00D6A439 /* Info.plist */,
+			);
+			path = tempApp_onlyIronSource;
+			sourceTree = "<group>";
+		};
+		6E6584FD2DF89F1D00BC2B6B /* tempApp_onlyCrackleRtb */ = {
+			isa = PBXGroup;
+			children = (
+				6E6585052DF8A65F00BC2B6B /* CardSelectionVC.swift */,
+				6E6585062DF8A65F00BC2B6B /* BannerVC.swift */,
+				6E6585072DF8A65F00BC2B6B /* CWButton.swift */,
+				6E6584F42DF89F1D00BC2B6B /* AppDelegate.swift */,
+				6E6584FB2DF89F1D00BC2B6B /* SceneDelegate.swift */,
+				6E6584F52DF89F1D00BC2B6B /* Assets.xcassets */,
+				6E6584F62DF89F1D00BC2B6B /* Info.plist */,
+			);
+			path = tempApp_onlyCrackleRtb;
+			sourceTree = "<group>";
+		};
+		6EA02C412DE87736004674CB /* tempApp_onlyCrackle */ = {
+			isa = PBXGroup;
+			children = (
+				6E2821002FBC35FE002C5B03 /* CrackleCoreResources.bundle */,
+				6E3646612E2A591300F58DE0 /* CustomNativeAdView.xib */,
+				6E1087763008FA6A00D4805C /* NativeBannerAdView.xib */,
+				790CDC65E5CE4D519D25A595 /* AdVC.swift */,
+				B0E02438125D414D8EFBB22A /* UnifiedVC.swift */,
+				6EA02C492DE8778B004674CB /* BannerVC.swift */,
+				6E03B1CE2F448A88003EAF3A /* NativeVC.swift */,
+				6EA02C4A2DE8778B004674CB /* FullScreenVC.swift */,
+				6EA02C4B2DE8778B004674CB /* CWButton.swift */,
+				6EA02C382DE87736004674CB /* AppDelegate.swift */,
+				6EA02C3F2DE87736004674CB /* SceneDelegate.swift */,
+				6EA02C392DE87736004674CB /* Assets.xcassets */,
+				6EA02C3A2DE87736004674CB /* Info.plist */,
+			);
+			path = tempApp_onlyCrackle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E4D075A2DDEF37D00D6A439 /* tempApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4D076E2DDEF37E00D6A439 /* Build configuration list for PBXNativeTarget "tempApp" */;
+			buildPhases = (
+				6E4D07572DDEF37D00D6A439 /* Sources */,
+				6E4D07582DDEF37D00D6A439 /* Frameworks */,
+				6E4D07592DDEF37D00D6A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp;
+			productName = tempApp;
+			productReference = 6E4D075B2DDEF37D00D6A439 /* tempApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4D07762DDEF44C00D6A439 /* tempApp_onlyGAM12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4D07892DDEF44D00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyGAM12" */;
+			buildPhases = (
+				992701B37BD5DF52B54A004C /* [CP] Check Pods Manifest.lock */,
+				6E4D07732DDEF44C00D6A439 /* Sources */,
+				6E4D07742DDEF44C00D6A439 /* Frameworks */,
+				6E4D07752DDEF44C00D6A439 /* Resources */,
+				0564DE29DCA46C57322EC0E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyGAM12;
+			productName = tempApp_onlyGAM12;
+			productReference = 6E4D07772DDEF44C00D6A439 /* tempApp_onlyGAM12.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4D078F2DDEF45B00D6A439 /* tempApp_onlyGAM11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4D07A22DDEF45C00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyGAM11" */;
+			buildPhases = (
+				6E4D078C2DDEF45B00D6A439 /* Sources */,
+				6E4D078D2DDEF45B00D6A439 /* Frameworks */,
+				6E4D078E2DDEF45B00D6A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyGAM11;
+			productName = tempApp_onlyGAM11;
+			productReference = 6E4D07902DDEF45B00D6A439 /* tempApp_onlyGAM11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4D07A82DDEF46E00D6A439 /* tempApp_onlyApplovinMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4D07BB2DDEF46F00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyApplovinMax" */;
+			buildPhases = (
+				B0D096D529F96ED8766F2623 /* [CP] Check Pods Manifest.lock */,
+				6E4D07A52DDEF46E00D6A439 /* Sources */,
+				6E4D07A62DDEF46E00D6A439 /* Frameworks */,
+				6E4D07A72DDEF46E00D6A439 /* Resources */,
+				47632EA6082CD4DFC28657E9 /* [CP] Embed Pods Frameworks */,
+				1F86351F97541DFB5854AE7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyApplovinMax;
+			productName = tempApp_onlyApplovinMax;
+			productReference = 6E4D07A92DDEF46E00D6A439 /* tempApp_onlyApplovinMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4D07C12DDEF4A800D6A439 /* tempApp_onlyIronSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4D07D42DDEF4A900D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyIronSource" */;
+			buildPhases = (
+				2BC3D9F4383DA50C9BC5983C /* [CP] Check Pods Manifest.lock */,
+				6E4D07BE2DDEF4A800D6A439 /* Sources */,
+				6E4D07BF2DDEF4A800D6A439 /* Frameworks */,
+				6E4D07C02DDEF4A800D6A439 /* Resources */,
+				33D8D0A102B70ACF13C0D49E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyIronSource;
+			productName = tempApp_onlyIronSource;
+			productReference = 6E4D07C22DDEF4A800D6A439 /* tempApp_onlyIronSource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E6584DE2DF89F1700BC2B6B /* tempApp_onlyCrackleRtb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6584F32DF89F1800BC2B6B /* Build configuration list for PBXNativeTarget "tempApp_onlyCrackleRtb" */;
+			buildPhases = (
+				6E6584DB2DF89F1700BC2B6B /* Sources */,
+				6E6584DC2DF89F1700BC2B6B /* Frameworks */,
+				6E6584DD2DF89F1700BC2B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyCrackleRtb;
+			productName = tempApp_onlyCrackleRtb;
+			productReference = 6E6584DF2DF89F1700BC2B6B /* tempApp_onlyCrackleRtb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA02C222DE8772B004674CB /* tempApp_onlyCrackle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA02C372DE8772D004674CB /* Build configuration list for PBXNativeTarget "tempApp_onlyCrackle" */;
+			buildPhases = (
+				BFFB62A275BE9E42605779D4 /* [CP] Check Pods Manifest.lock */,
+				6EA02C1F2DE8772B004674CB /* Sources */,
+				6EA02C202DE8772B004674CB /* Frameworks */,
+				6EA02C212DE8772B004674CB /* Resources */,
+				E2A0CC33225C683FE134FE5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempApp_onlyCrackle;
+			productName = tempApp_onlyCrackle;
+			productReference = 6EA02C232DE8772B004674CB /* tempApp_onlyCrackle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E4D07532DDEF37D00D6A439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6E4D075A2DDEF37D00D6A439 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E4D07762DDEF44C00D6A439 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E4D078F2DDEF45B00D6A439 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E4D07A82DDEF46E00D6A439 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E4D07C12DDEF4A800D6A439 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E6584DE2DF89F1700BC2B6B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6EA02C222DE8772B004674CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 6E4D07562DDEF37D00D6A439 /* Build configuration list for PBXProject "tempApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E4D07522DDEF37D00D6A439;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E4D075C2DDEF37D00D6A439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4D075A2DDEF37D00D6A439 /* tempApp */,
+				6E4D07762DDEF44C00D6A439 /* tempApp_onlyGAM12 */,
+				6E4D078F2DDEF45B00D6A439 /* tempApp_onlyGAM11 */,
+				6E4D07A82DDEF46E00D6A439 /* tempApp_onlyApplovinMax */,
+				6E4D07C12DDEF4A800D6A439 /* tempApp_onlyIronSource */,
+				6EA02C222DE8772B004674CB /* tempApp_onlyCrackle */,
+				6E6584DE2DF89F1700BC2B6B /* tempApp_onlyCrackleRtb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E4D07592DDEF37D00D6A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D07E12DDEF4D400D6A439 /* Assets.xcassets in Resources */,
+				6E4D07E32DDEF4D400D6A439 /* LaunchScreen.storyboard in Resources */,
+				6E4D07E42DDEF4D400D6A439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07752DDEF44C00D6A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D07F22DDEF4D600D6A439 /* Assets.xcassets in Resources */,
+				6E3698E72DE6E234001CB3E0 /* CustomNativeAdView1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D078E2DDEF45B00D6A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08062DDEF4D800D6A439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07A72DDEF46E00D6A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08142DDEF4DA00D6A439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07C02DDEF4A800D6A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08282DDEF4DD00D6A439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6584DD2DF89F1700BC2B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6584FE2DF89F1D00BC2B6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA02C212DE8772B004674CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1087773008FA6A00D4805C /* NativeBannerAdView.xib in Resources */,
+				6E2821012FBC35FE002C5B03 /* CrackleCoreResources.bundle in Resources */,
+				6EA02C422DE87736004674CB /* Assets.xcassets in Resources */,
+				6E3646622E2A591D00F58DE0 /* CustomNativeAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0564DE29DCA46C57322EC0E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyGAM12/Pods-tempApp_onlyGAM12-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyGAM12/Pods-tempApp_onlyGAM12-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyGAM12/Pods-tempApp_onlyGAM12-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F86351F97541DFB5854AE7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC3D9F4383DA50C9BC5983C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempApp_onlyIronSource-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D8D0A102B70ACF13C0D49E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyIronSource/Pods-tempApp_onlyIronSource-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyIronSource/Pods-tempApp_onlyIronSource-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyIronSource/Pods-tempApp_onlyIronSource-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47632EA6082CD4DFC28657E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyApplovinMax/Pods-tempApp_onlyApplovinMax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992701B37BD5DF52B54A004C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempApp_onlyGAM12-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D096D529F96ED8766F2623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempApp_onlyApplovinMax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFB62A275BE9E42605779D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempApp_onlyCrackle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A0CC33225C683FE134FE5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyCrackle/Pods-tempApp_onlyCrackle-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyCrackle/Pods-tempApp_onlyCrackle-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempApp_onlyCrackle/Pods-tempApp_onlyCrackle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E4D07572DDEF37D00D6A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D07E52DDEF4D400D6A439 /* AppDelegate.swift in Sources */,
+				6E4D07E62DDEF4D400D6A439 /* SceneDelegate.swift in Sources */,
+				6E4D07E72DDEF4D400D6A439 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07732DDEF44C00D6A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08312DDEF77500D6A439 /* CWButton.swift in Sources */,
+				6E4D082F2DDEF5B900D6A439 /* BannerVC.swift in Sources */,
+				6E4D07F62DDEF4D600D6A439 /* AppDelegate.swift in Sources */,
+				6E4D07F72DDEF4D600D6A439 /* SceneDelegate.swift in Sources */,
+				6E4D082D2DDEF5A800D6A439 /* CardSelectionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D078C2DDEF45B00D6A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08032DDEF4D800D6A439 /* AppDelegate.swift in Sources */,
+				6E4D08042DDEF4D800D6A439 /* SceneDelegate.swift in Sources */,
+				6EFF02F02DF1BE670080083D /* BannerVC.swift in Sources */,
+				6EFF02F12DF1BE670080083D /* CardSelectionVC.swift in Sources */,
+				6EFF02F22DF1BE670080083D /* CWButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07A52DDEF46E00D6A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4D08182DDEF4DA00D6A439 /* AppDelegate.swift in Sources */,
+				6E4D08192DDEF4DA00D6A439 /* SceneDelegate.swift in Sources */,
+				6E02B2A52E0D4AC200514DB6 /* FullScreenVC.swift in Sources */,
+				6E02B2A82E0D4AC800514DB6 /* CWButton.swift in Sources */,
+				6E02B2A92E0D4AC800514DB6 /* BannerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4D07BE2DDEF4A800D6A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0D66D32E013A3D0060169A /* BannerVC.swift in Sources */,
+				6E0D66D42E013A3D0060169A /* CWButton.swift in Sources */,
+				6E0D66D52E013A3D0060169A /* FullScreenVC.swift in Sources */,
+				6E4D08252DDEF4DD00D6A439 /* AppDelegate.swift in Sources */,
+				6E4D08262DDEF4DD00D6A439 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6584DB2DF89F1700BC2B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6585082DF8A65F00BC2B6B /* BannerVC.swift in Sources */,
+				6E6585092DF8A65F00BC2B6B /* CWButton.swift in Sources */,
+				6E65850A2DF8A65F00BC2B6B /* CardSelectionVC.swift in Sources */,
+				6E6585022DF89F1D00BC2B6B /* AppDelegate.swift in Sources */,
+				6E6585032DF89F1D00BC2B6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA02C1F2DE8772B004674CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA02C462DE87736004674CB /* AppDelegate.swift in Sources */,
+				6E03B1CF2F448A8B003EAF3A /* NativeVC.swift in Sources */,
+				6EA02C4C2DE8778B004674CB /* FullScreenVC.swift in Sources */,
+				6EA02C4D2DE8778B004674CB /* CWButton.swift in Sources */,
+				6EA02C4E2DE8778B004674CB /* BannerVC.swift in Sources */,
+				6EA02C472DE87736004674CB /* SceneDelegate.swift in Sources */,
+				A0BCB3481E0445D79B17F147 /* AdVC.swift in Sources */,
+				FAB0B46F6E6D445F92F0F493 /* UnifiedVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E3698E62DE6E234001CB3E0 /* CustomNativeAdView1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3698E52DE6E234001CB3E0 /* CustomNativeAdView1.xib */,
+			);
+			name = CustomNativeAdView1.xib;
+			sourceTree = "<group>";
+		};
+		6E4D07DB2DDEF4D400D6A439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4D07DA2DDEF4D400D6A439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E4D07DD2DDEF4D400D6A439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4D07DC2DDEF4D400D6A439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E4D076F2DDEF37E00D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP8MX2Q64C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4D07702DDEF37E00D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP8MX2Q64C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4D07712DDEF37E00D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E4D07722DDEF37E00D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4D078A2DDEF44D00D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC9B512C0357E11B18045E9 /* Pods-tempApp_onlyGAM12.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyGAM12/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4D078B2DDEF44D00D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F925BB8AF6DE971A222FF010 /* Pods-tempApp_onlyGAM12.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyGAM12/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4D07A32DDEF45C00D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BG3PJ5DNJG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyGAM11/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Harsh_Development_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4D07A42DDEF45C00D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BG3PJ5DNJG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyGAM11/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Harsh_Development_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4D07BC2DDEF46F00D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E180290CB70709D740D03B61 /* Pods-tempApp_onlyApplovinMax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyApplovinMax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppLovinSDK\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreHaptics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4D07BD2DDEF46F00D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0D65216A5015504CD1C67D /* Pods-tempApp_onlyApplovinMax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyApplovinMax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppLovinSDK\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreHaptics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4D07D52DDEF4A900D6A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F23002CFDA039F31370DDA /* Pods-tempApp_onlyIronSource.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyIronSource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS Team provisioning profile for apps starting t";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4D07D62DDEF4A900D6A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056CDDA8A8737DDF485A8BEE /* Pods-tempApp_onlyIronSource.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyIronSource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS Team provisioning profile for apps starting t";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E6584F02DF89F1800BC2B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BG3PJ5DNJG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyCrackleRtb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Harsh_Development_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6584F12DF89F1800BC2B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BG3PJ5DNJG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyCrackleRtb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Harsh_Development_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EA02C342DE8772D004674CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CA30C5433A42F463A4DE92 /* Pods-tempApp_onlyCrackle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyCrackle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EA02C352DE8772D004674CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3F13AD722E29C4648FAE99 /* Pods-tempApp_onlyCrackle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 76A6742W4M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tempApp_onlyCrackle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.crackle.tempApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IOS team All bundle IDs";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E4D07562DDEF37D00D6A439 /* Build configuration list for PBXProject "tempApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D07712DDEF37E00D6A439 /* Debug */,
+				6E4D07722DDEF37E00D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4D076E2DDEF37E00D6A439 /* Build configuration list for PBXNativeTarget "tempApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D076F2DDEF37E00D6A439 /* Debug */,
+				6E4D07702DDEF37E00D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4D07892DDEF44D00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyGAM12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D078A2DDEF44D00D6A439 /* Debug */,
+				6E4D078B2DDEF44D00D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4D07A22DDEF45C00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyGAM11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D07A32DDEF45C00D6A439 /* Debug */,
+				6E4D07A42DDEF45C00D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4D07BB2DDEF46F00D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyApplovinMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D07BC2DDEF46F00D6A439 /* Debug */,
+				6E4D07BD2DDEF46F00D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4D07D42DDEF4A900D6A439 /* Build configuration list for PBXNativeTarget "tempApp_onlyIronSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4D07D52DDEF4A900D6A439 /* Debug */,
+				6E4D07D62DDEF4A900D6A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6584F32DF89F1800BC2B6B /* Build configuration list for PBXNativeTarget "tempApp_onlyCrackleRtb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6584F02DF89F1800BC2B6B /* Debug */,
+				6E6584F12DF89F1800BC2B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA02C372DE8772D004674CB /* Build configuration list for PBXNativeTarget "tempApp_onlyCrackle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA02C342DE8772D004674CB /* Debug */,
+				6EA02C352DE8772D004674CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E4D07532DDEF37D00D6A439 /* Project object */;
+}

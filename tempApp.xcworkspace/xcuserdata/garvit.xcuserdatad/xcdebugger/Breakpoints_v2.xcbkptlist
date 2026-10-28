@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E20B17A8-DD96-4FE8-A6D7-FCFBBD60612A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D81C88A-A268-415E-A053-FFF4EA496D61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyGAM12/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "adLoader(_:didFailToReceiveAdWithError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52FE041D-B43C-4715-98A2-E775FB6EE779"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SSPs/s3/s3/s3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "adLoader(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "477B904B-8065-47B6-ACCE-A168F8F4583F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "loadCacheAd(adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:counter:sspCounter:crackleInAppBid:isInAppBiddingDone:adsError:retryAttempt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B21A2203-76A1-43B1-8CEC-C11AE4B719A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/core/domain/manager/SspAdLoadFreqCapManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "isFreqCapReached(sspName:adUnitInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0495EC10-7DE4-422F-B37A-51F0C190C7C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/core/domain/manager/SspAdLoadFreqCapManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "isFreqCapReached(sspName:adUnitInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA4B8CD5-1005-4169-BCAA-311E657FB6DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "loadCacheAd(adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:counter:sspCounter:crackleInAppBid:isInAppBiddingDone:adsError:retryAttempt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4143A270-890F-4E3F-A570-B9FAD0B4745D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "loadCacheAd(adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:counter:sspCounter:crackleInAppBid:isInAppBiddingDone:adsError:retryAttempt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD9F5857-7E1E-480E-9999-03E5031E507D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "loadCacheAd(adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:counter:sspCounter:crackleInAppBid:isInAppBiddingDone:adsError:retryAttempt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3F10BD3-F657-4F89-A687-CE32F3CCAAE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "loadCacheAdFromSsp(ssp:adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:sspCounter:maxRetryAttempt:floorPriceForSsp:crackleInAppBid:isInAppBiddingDone:sspSequence:retryAttempt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3F10BD3-F657-4F89-A687-CE32F3CCAAE3 - 9633b7d89bb3edc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CrackleSDK.CrackleAppOpenAd.loadCacheAdFromSsp(ssp: CrackleSDK.SSP, adUnitInfo: CrackleSDK.AppInfo.AdUnitInfo, adRequestId: Swift.String, crackleAdListener: Swift.Optional&lt;CrackleSDK.CrackleAdListener&gt;, floorPriceByUserForThousandAds: Swift.Double, isCalledByUser: Swift.Bool, onAdLoaded: () -&gt; (), sspCounter: Swift.Int, maxRetryAttempt: Swift.Int, floorPriceForSsp: Swift.Double, crackleInAppBid: CrackleSDK.CrackleInAppBid, isInAppBiddingDone: Swift.Bool, sspSequence: Swift.String, retryAttempt: Swift.Int) -&gt; ()"
+                  moduleName = "tempApp_onlyCrackle.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garvit/Desktop/crackle_ios/cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164">
+               </Location>
+               <Location
+                  uuid = "C3F10BD3-F657-4F89-A687-CE32F3CCAAE3 - 57b448eff70bf4e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static CrackleSDK.CrackleAppOpenAd.loadCacheAdFromSsp(ssp: CrackleSDK.SSP, adUnitInfo: CrackleSDK.AppInfo.AdUnitInfo, adRequestId: Swift.String, crackleAdListener: Swift.Optional&lt;CrackleSDK.CrackleAdListener&gt;, floorPriceByUserForThousandAds: Swift.Double, isCalledByUser: Swift.Bool, onAdLoaded: () -&gt; (), sspCounter: Swift.Int, maxRetryAttempt: Swift.Int, floorPriceForSsp: Swift.Double, crackleInAppBid: CrackleSDK.CrackleInAppBid, isInAppBiddingDone: Swift.Bool, sspSequence: Swift.String, retryAttempt: Swift.Int) -&gt; ()"
+                  moduleName = "tempApp_onlyCrackle.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garvit/Desktop/crackle_ios/cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164">
+               </Location>
+               <Location
+                  uuid = "C3F10BD3-F657-4F89-A687-CE32F3CCAAE3 - d154af7012bfa8e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Double) -&gt; () in static CrackleSDK.CrackleAppOpenAd.loadCacheAdFromSsp(ssp: CrackleSDK.SSP, adUnitInfo: CrackleSDK.AppInfo.AdUnitInfo, adRequestId: Swift.String, crackleAdListener: Swift.Optional&lt;CrackleSDK.CrackleAdListener&gt;, floorPriceByUserForThousandAds: Swift.Double, isCalledByUser: Swift.Bool, onAdLoaded: () -&gt; (), sspCounter: Swift.Int, maxRetryAttempt: Swift.Int, floorPriceForSsp: Swift.Double, crackleInAppBid: CrackleSDK.CrackleInAppBid, isInAppBiddingDone: Swift.Bool, sspSequence: Swift.String, retryAttempt: Swift.Int) -&gt; ()"
+                  moduleName = "tempApp_onlyCrackle.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garvit/Desktop/crackle_ios/cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DBA81F7-6793-4B54-A4E7-5B65B32E4459"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cracklesdk/CrackleSDK/ads/CrackleAppOpenAd.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "loadCacheAdFromSsp(ssp:adUnitInfo:adRequestId:crackleAdListener:floorPriceByUserForThousandAds:isCalledByUser:onAdLoaded:sspCounter:maxRetryAttempt:floorPriceForSsp:crackleInAppBid:isInAppBiddingDone:sspSequence:retryAttempt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02592163-E29E-4E26-84E5-466DC43CB981"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/BannerVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "BannerVC"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76182AF2-966A-4070-A61F-B2A2DE8964E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/BannerVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "didLeaveApplication(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76D2277A-7B1D-4465-9B7C-6BE77695DF1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/BannerVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "loadMREC()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C11BB295-EA17-43F6-BE79-C58CC53A0161"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyApplovinMax/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "didFailToLoadAd(forAdUnitIdentifier:withError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5966D01-FABA-456C-AFE5-C98915AA574B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyApplovinMax/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "didRewardUser(for:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F64E701C-BB00-4FAA-9BB8-879AF006145F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyGAM12/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E889651-2991-4D28-B525-24DDA80BE081"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "loadInt()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B0966DE-D971-4A29-B6F1-661FF4E9AD04"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "loadRew()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99F1A796-8439-45DE-9C1F-F6333068D3EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "didFailToLoadAd(withAdUnitId:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5779BEBE-095D-45CF-A88C-4AEEE912A973"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tempApp_onlyIronSource/CardSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "didLoadAd(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

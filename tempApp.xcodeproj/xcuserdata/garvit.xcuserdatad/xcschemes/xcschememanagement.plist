@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>tempApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
+		<key>tempApp_onlyApplovinMax.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>tempApp_onlyCrackle.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>tempApp_onlyCrackleRtb.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>tempApp_onlyGAM11.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>tempApp_onlyGAM12.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>tempApp_onlyIronSource.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
