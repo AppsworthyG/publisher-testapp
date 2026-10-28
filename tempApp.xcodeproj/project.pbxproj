@@ -21,7 +21,6 @@
 		6E26536F2FCED7CF00C47FC1 /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26536E2FCED7CF00C47FC1 /* s3.framework */; };
 		6E26537C2FCEF23B00C47FC1 /* CrackleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E91D2472DE449C20092722F /* CrackleSDK.framework */; };
 		6E26537E2FCEF97600C47FC1 /* CrackleApplovinMaxAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2653712FCED87100C47FC1 /* CrackleApplovinMaxAdapter.framework */; };
-		6E2821012FBC35FE002C5B03 /* CrackleCoreResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E2821002FBC35FE002C5B03 /* CrackleCoreResources.bundle */; };
 		6E328DAF2FD1728C0094F03A /* s3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E82A1022E2779630094378F /* s3.framework */; };
 		6E3646622E2A591D00F58DE0 /* CustomNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3646612E2A591300F58DE0 /* CustomNativeAdView.xib */; };
 		6E3698E72DE6E234001CB3E0 /* CustomNativeAdView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3698E62DE6E234001CB3E0 /* CustomNativeAdView1.xib */; };
@@ -664,7 +663,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1087773008FA6A00D4805C /* NativeBannerAdView.xib in Resources */,
-				6E2821012FBC35FE002C5B03 /* CrackleCoreResources.bundle in Resources */,
 				6EA02C422DE87736004674CB /* Assets.xcassets in Resources */,
 				6E3646622E2A591D00F58DE0 /* CustomNativeAdView.xib in Resources */,
 			);
